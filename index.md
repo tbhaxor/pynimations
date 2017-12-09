@@ -6,7 +6,7 @@
 This module is supported with all python **3.x** 
 
 # Dependencies
-1. **pbars**, to install type `pip3 install pbars`
+1. **pbars**, to install type "_`pip3 install pbars`_"
 
 # Features
 + Customisable
