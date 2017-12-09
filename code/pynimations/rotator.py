@@ -23,6 +23,7 @@ class Animator:
                 sleep(self.__interval)  # giving sleep
                 pass
             pass
+        print()  # printing new line
         pass
 
     pass
