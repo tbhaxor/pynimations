@@ -35,7 +35,18 @@ pb.animate()
 ```
 
 # Argument Description for Animations
-## Animation - rotator
+## 1.) rotator
 |Argument|Default Value|Description|
-|----|----|----|
+|----|:----:|----|
 |label|Loading|Accepts a string - Used for giving an label (prefix text) of animator|
+|interval|100|Accepts an positive integer - Used for animation delay interval|
+|iteration|5|Accepts an positive integer - Used for looping whole animation iteration|
+
+## 2.) progressbar
+|Argument|Default Value|Description|
+|----|:----:|----|
+|label|Loading|Accepts a string - Used for giving an label (prefix text) of animator|
+|interval|100|Accepts an positive integer - Used for animation delay interval|
+|iteration|5|Accepts an positive integer - Used for looping whole animation iteration|
+
+
