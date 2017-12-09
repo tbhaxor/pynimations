@@ -36,19 +36,61 @@ pb.animate()
 
 # Argument Description for Animations
 ## 1.) rotator
-|Argument|Default Value|Description|
-|----|:----:|----|
-|label|Loading|Accepts a string - Used for giving an label (prefix text) of animator|
-|interval|100|Accepts an positive integer - Used for animation delay interval|
-|iteration|5|Accepts an positive integer - Used for looping whole animation iteration|
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th align="center">Default Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>label</td>
+<td align="center">Loading</td>
+<td>Accepts a string - Used for giving an label (prefix text) of animator</td>
+</tr>
+<tr>
+<td>interval</td>
+<td align="center">100</td>
+<td>Accepts an positive integer - Used for animation delay interval</td>
+</tr>
+<tr>
+<td>iteration</td>
+<td align="center">5</td>
+<td>Accepts an positive integer - Used for looping whole animation iteration</td>
+</tr></tbody></table>
 
 ## 2.) progressbar
-|Argument|Default Value|Description|
-|----|:----:|----|
-|label|Loading|Accepts a string - Used for giving an label (prefix text) of animator|
-|interval|100|Accepts an positive integer - Used for animation delay interval|
-|length|30|Accepts an positive integer - Used for deciding the width of progress bar|
-|style|pip|Accepts a string - Used for styling the progress bar|
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th align="center">Default Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>label</td>
+<td align="center">Loading</td>
+<td>Accepts a string - Used for giving an label (prefix text) of animator</td>
+</tr>
+<tr>
+<td>interval</td>
+<td align="center">100</td>
+<td>Accepts an positive integer - Used for animation delay interval</td>
+</tr>
+<tr>
+<td>length</td>
+<td align="center">30</td>
+<td>Accepts an positive integer - Used for deciding the width of progress bar</td>
+</tr>
+<tr>
+<td>style</td>
+<td align="center">pip</td>
+<td>Accepts a string - Used for styling the progress bar</td>
+</tr></tbody></table>
 
 
 
