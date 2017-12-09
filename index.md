@@ -1,4 +1,5 @@
 <br>
+# Build Status - [![Build Status](https://travis-ci.org/tbhaxor/pynimations.svg?branch=master)](https://travis-ci.org/tbhaxor/pynimations)
 
 # Python Supported Versions
 This module is supported with all python **3.x** 
