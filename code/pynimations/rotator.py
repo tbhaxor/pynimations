@@ -23,7 +23,8 @@ class Animator:
                 sleep(self.__interval)  # giving sleep
                 pass
             pass
-        print()  # printing new line
+        print("\b ")  # printing new line
         pass
 
     pass
+
