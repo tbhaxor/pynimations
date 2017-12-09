@@ -1,7 +1,24 @@
 <br>
 
-<img src="https://travis-ci.org/tbhaxor/pynimations.svg?branch=master" align=center>
 
+Hello there !
+
+<div id="container">
+    <img src="https://travis-ci.org/tbhaxor/pynimations.svg?branch=master" align=center>
+    This is an image
+</div>
+
+Hi !
+
+#container {
+    height:100px;
+    line-height:100px;
+}
+
+#container img {
+    vertical-align:middle;
+    max-height:100%;
+}
 # Python Supported Versions
 This module is supported with all python **3.x** 
 
