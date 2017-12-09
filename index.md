@@ -47,6 +47,8 @@ pb.animate()
 |----|:----:|----|
 |label|Loading|Accepts a string - Used for giving an label (prefix text) of animator|
 |interval|100|Accepts an positive integer - Used for animation delay interval|
-|iteration|5|Accepts an positive integer - Used for looping whole animation iteration|
+|length|30|Accepts an positive integer - Used for deciding the width of progress bar|
+|style|pip|Accepts a string - Used for styling the progress bar|
+
 
 
