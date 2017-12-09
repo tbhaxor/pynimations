@@ -53,7 +53,7 @@ pb.animate()
 <tr>
 <td>interval</td>
 <td align="center">100</td>
-<td>Accepts an positive integer - Used for animation delay interval</td>
+<td>Accepts an positive integer - Used for animation delay interval (_in ms_)</td>
 </tr>
 <tr>
 <td>iteration</td>
@@ -79,7 +79,7 @@ pb.animate()
 <tr>
 <td>interval</td>
 <td align="center">100</td>
-<td>Accepts an positive integer - Used for animation delay interval</td>
+<td>Accepts an positive integer - Used for animation delay interval (_in ms_)</td>
 </tr>
 <tr>
 <td>length</td>
