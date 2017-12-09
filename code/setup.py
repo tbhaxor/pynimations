@@ -1,5 +1,4 @@
 from distutils.core import setup
-from webbrowser import open_new_tab
 
 setup(name="pynimations",
       platforms="Cross Platform",
@@ -25,4 +24,3 @@ setup(name="pynimations",
       python_requires='>=3',
 
       )
-open_new_tab("https://tbhaxor.github.io/pynimations/")
