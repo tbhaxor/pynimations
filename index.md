@@ -33,3 +33,9 @@ pb = progressbar()   # for arguments refer the following table
 ```python
 pb.animate()
 ```
+
+# Argument Description for Animations
+## Animation - rotator
+|Argument|Default Value|Description|
+|----|----|----|
+|label|Loading|Accepts a string - Used for giving an label (prefix text) of animator|
