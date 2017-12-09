@@ -1,4 +1,4 @@
-# pynimations
+# pynimations [![Build Status](https://travis-ci.org/tbhaxor/pynimations.svg?branch=master)](https://travis-ci.org/tbhaxor/pynimations)
 All-in-one python library for program loading animations
 
 # Documentation
