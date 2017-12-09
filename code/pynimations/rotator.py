@@ -1,27 +1,28 @@
+# importing modules for animations
 from __future__ import print_function
 from time import sleep
 
 
+# class used to display animations
 class Animator:
-    def __init__(self, label="Loading", interval=100, iteration=5):
+    def __init__(self, label="Loading", interval=100, iteration=5):  # default parameters of the constructor
         self.__label = label
-        self.__interval = float(interval)/1000.0
+        self.__interval = float(interval)/1000.0   # converting milli-secs to secs
         self.__iteration = iteration
-        self.__elements = ["\\", "|", "/", "-"]
+        self.__elements = ["\\", "|", "/", "-"]  # ascii rotating elements
         pass
 
+    # public method to display animations
     def animate(self):
-        while self.__iteration > 0:
-            self.__iteration -= 1
-            for element in self.__elements:
-                print(end="\r")
-                print(self.__label, element, end="")
-                sleep(self.__interval)
+        i = self.__iteration
+        while i > 0:  # iterating till iteration != 0
+            i -= 1    # decreasing iter by 1
+            for element in self.__elements:   # for each element in ascii rotator elements
+                print(end="\r")  # moving display cursor to the beginning of line
+                print(self.__label, element, end="")   # replacing  end character "\n" with ""
+                sleep(self.__interval)  # giving sleep
                 pass
             pass
         pass
 
     pass
-
-a = Animator()
-a.animate()
