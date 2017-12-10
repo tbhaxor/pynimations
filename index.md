@@ -1,4 +1,9 @@
-
+<style>
+    img {
+  display:block;
+  margin: 0 auto;
+}
+</style>
 [![Build Status](https://travis-ci.org/tbhaxor/pynimations.svg?branch=master)](https://travis-ci.org/tbhaxor/pynimations)
 
 # Python Supported Versions
