@@ -1,0 +1,17 @@
+sudo: false
+language : python
+python:
+  - 3.4
+  - 3.5
+  - 3.6
+
+install:
+  - pip install pynimations
+  - pip install pbars
+
+before_script:
+  - cd tests
+
+script:
+  - python build_1.py
+  - python build_2.py
