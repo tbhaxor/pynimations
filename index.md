@@ -96,5 +96,29 @@ pb.animate()
 <td>Accepts a string - Used for styling the progress bar</td>
 </tr></tbody></table>
 
-
+## 3.) casetoggle
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th align="center">Default Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>label</td>
+<td align="center">Loading</td>
+<td>Accepts a string - Used for giving an label of animator</td>
+</tr>
+<tr>
+<td>interval</td>
+<td align="center">100</td>
+  <td>Accepts an positive integer - Used for animation delay interval (<i>in ms</i>)</td>
+</tr>
+<tr>
+<td>iteration</td>
+<td align="center">5</td>
+<td>Accepts an positive integer - Used for looping whole animation iteration</td>
+</tr></tbody></table>
 
