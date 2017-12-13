@@ -1,22 +1,18 @@
-sudo: true
+sudo: false
 language : python
 python:
-  - 2.7
-  #- 3.4
-  #- 3.5
-  #- 3.6
+  - 3.4
+  - 3.5
+  - 3.6
 
 install:
-  #- pip install pynimations
-  #- pip install pbars
-  - pip install Striker
+  - pip install pynimations
+  - pip install pbars
 
 before_script:
   - cd tests
 
 script:
-  - striker
-  - sudo striker
- # - python build_1.py
-  #- python build_2.py
-  #- python build_3.py
+  - python build_1.py
+  - python build_2.py
+  - python build_3.py
