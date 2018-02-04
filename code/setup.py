@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(name="pynimations",
       platforms="Cross Platform",
       packages=["pynimations"],
-      version="0.2.0",
+      version="1.2.0",
       description="All-in-one python library for program loading animations",
       long_description="Visit https://tbhaxor.github.io/pynimations/",
       author_email="tbhaxor@gmail.com",
@@ -22,5 +22,5 @@ setup(name="pynimations",
                    'Programming Language :: Python :: 3.6'],
       license="GPL-3.0",
       python_requires='>=3',
-
+      install_requires=["pbars"],
       )

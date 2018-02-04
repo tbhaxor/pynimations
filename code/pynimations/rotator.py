@@ -1,6 +1,6 @@
 # importing modules for animations
 from time import sleep
-
+import sys
 
 # class used to display animations
 class Animator:
@@ -17,12 +17,13 @@ class Animator:
         while i > 0:  # iterating till iteration != 0
             i -= 1    # decreasing iter by 1
             for element in self.__elements:   # for each element in ascii rotator elements
-                print(end="\r")  # moving display cursor to the beginning of line
-                print(self.__label, element, end="")   # replacing  end character "\n" with ""
+                sys.stdout.write("\r")   # moving display cursor to the beginning of line
+                sys.stdout.write(self.__label + element)   # replacing  end character "\n" with ""
+                sys.stdout.flush()
                 sleep(self.__interval)  # giving sleep
                 pass
             pass
-        print("\b ")  # printing new line
+        sys.stdout.write("\b \r\n")
         pass
 
     pass
