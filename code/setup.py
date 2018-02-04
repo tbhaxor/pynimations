@@ -1,15 +1,14 @@
 from distutils.core import setup
 
 setup(name="pynimations",
-      platforms="Cross Platform",
       packages=["pynimations"],
-      version="1.2.0",
+      version="1.2.5",
       description="All-in-one python library for program loading animations",
       long_description="Visit https://tbhaxor.github.io/pynimations/",
       author_email="tbhaxor@gmail.com",
       author="Gurkirat Singh",
       url="https://tbhaxor.github.io/pynimations/",
-      download_url="https://github.com/tbhaxor/pynimations/archive/pynimations-v0.2.0.tar.gz",
+      download_url="https://github.com/tbhaxor/pynimations/archive/pynimations-v1.2.5.tar.gz",
       keywords="pynimations gurkirat_singh tbhaxor",
       classifiers=['Development Status :: 5 - Production/Stable',
                    'Intended Audience :: Developers',
