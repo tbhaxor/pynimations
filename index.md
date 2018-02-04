@@ -143,7 +143,7 @@ pb.animate()
   <td>Accepts an positive integer - Used for animation delay interval (<i>in ms</i>)</td>
 </tr>
 <tr>
-<td>wait_untill</td>
+<td>wait_unitl</td>
 <td align="center">5</td>
     <td>Accepts an positive integer - To give previous text clearing delay (<i>in ms</i>)</td>
 </tr></tbody></table>
