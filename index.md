@@ -122,3 +122,28 @@ pb.animate()
 <td>Accepts an positive integer - Used for looping whole animation iteration</td>
 </tr></tbody></table>
 
+## 4.) typewriter
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th align="center">Default Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>label</td>
+<td align="center">Loading</td>
+<td>Accepts a list of strings - The text to be animated</td>
+</tr>
+<tr>
+<td>interval</td>
+<td align="center">100</td>
+  <td>Accepts an positive integer - Used for animation delay interval (<i>in ms</i>)</td>
+</tr>
+<tr>
+<td>wait_untill</td>
+<td align="center">5</td>
+    <td>Accepts an positive integer - To give previous text clearing delay (<i>in ms</i>)</td>
+</tr></tbody></table>
