@@ -6,7 +6,6 @@ python:
   - 3.6
 
 install:
-  - pip install pynimations
   - pip install pbars
 
 before_script:
@@ -16,3 +15,4 @@ script:
   - python build_1.py
   - python build_2.py
   - python build_3.py
+  - python build_4.py
