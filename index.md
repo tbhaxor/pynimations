@@ -30,7 +30,7 @@ from pynimations import progressbar
 
 2. create an instance of progressbar
 ```python
-pb = progressbar()   # for arguments refer the following table
+pb = progressbar.Animator()   # for arguments refer the following table
 ```
 
 3. call animate method
