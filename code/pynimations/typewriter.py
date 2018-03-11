@@ -32,6 +32,3 @@ class Animator:  # class Animator
 			sleep(self.__interval)
 
 	pass
-
-a = Animator()
-a.animate()

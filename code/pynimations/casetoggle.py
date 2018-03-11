@@ -43,6 +43,3 @@ class Animator:
         return "".join(map(str.swapcase, letter))
 
     pass
-
-a = Animator()
-a.animate()

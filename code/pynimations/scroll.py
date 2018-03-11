@@ -31,6 +31,3 @@ class Animator:
         sys.stdout.write("\r"+ " "*ts.get_cols() + "\n")
         pass
     pass
-
-a = Animator(length=0)
-a.animate()

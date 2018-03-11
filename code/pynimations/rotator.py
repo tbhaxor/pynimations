@@ -27,6 +27,4 @@ class Animator:
         pass
 
     pass
-
-a = Animator()
-a.animate()
+    
