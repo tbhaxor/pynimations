@@ -1,7 +1,7 @@
 # importing required modules
 from time import sleep
 import sys
-
+import termisize as ts
 class Animator:  # class Animator
 	# constructor of class with some default parameters
 	def __init__(self, label=["[!] Loading",], interval=100, wait_unitl=1000):
@@ -19,6 +19,7 @@ class Animator:  # class Animator
 				pass
 			sleep(self.__wait) # waiting for backspace
 			self.__back(len(x))
+		sys.stdout.write("\r" + " " * ts.get_cols() + "\n")
 		pass
 
 	# ------
@@ -31,3 +32,6 @@ class Animator:  # class Animator
 			sleep(self.__interval)
 
 	pass
+
+a = Animator()
+a.animate()

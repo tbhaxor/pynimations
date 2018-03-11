@@ -1,6 +1,7 @@
 # importing all modules
 from time import sleep
 import sys
+import termisize as ts
 
 # class for CaseToggle Animation
 class Animator:
@@ -31,8 +32,7 @@ class Animator:
                         sys.stdout.write(self.__label[j])
                         sys.stdout.flush()
                 sleep(self.__interval)  # delay for process
-        sys.stdout.write("\r")
-        sys.stdout.write(self.__label + "\n")
+        sys.stdout.write("\r" + " " * ts.get_cols() + "\n")
         sys.stdout.flush()
         pass
 
@@ -43,3 +43,6 @@ class Animator:
         return "".join(map(str.swapcase, letter))
 
     pass
+
+a = Animator()
+a.animate()

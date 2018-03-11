@@ -1,7 +1,7 @@
 # importing modules for animations
 from time import sleep
 import sys
-
+import  termisize as ts
 # class used to display animations
 class Animator:
     def __init__(self, label="Loading", interval=100, iteration=5):  # default parameters of the constructor
@@ -23,8 +23,10 @@ class Animator:
                 sleep(self.__interval)  # giving sleep
                 pass
             pass
-        sys.stdout.write("\b \r\n")
+        sys.stdout.write("\r" + " " * ts.get_cols() + "\n")
         pass
 
     pass
 
+a = Animator()
+a.animate()

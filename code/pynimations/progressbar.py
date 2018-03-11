@@ -1,8 +1,8 @@
 # importing required modules
 from pbars import ProgressBar
 from time import sleep
-
-
+import sys
+import termisize as ts
 class Animator:  # class Animator
     # constructor of class with some default parameters
     def __init__(self, label="Loading", interval=100, length=30, style="pip"):
@@ -15,7 +15,8 @@ class Animator:  # class Animator
             self.__pbar.Progress(x+1)
             sleep(self.__interval)  # delay interval
             pass
-        print()  # printing new line
+        sys.stdout.write("\r" + " " * ts.get_cols() + "\n")
         pass
     pass
-
+a = Animator()
+a.animate()
