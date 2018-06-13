@@ -21,3 +21,5 @@ script:
   - python build_2.py
   - python build_3.py
   - python build_4.py
+  - python build_5.py
+  - python build_6.py
