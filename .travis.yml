@@ -1,4 +1,4 @@
-sudo: true
+sudo: false
 language : python
 python:
   - 3.4
@@ -9,6 +9,8 @@ before_install:
   - cd code
 
 install:
+  - pip install pbars
+  - pip instsll termisize
   - python setup.py install
 
 before_script:
