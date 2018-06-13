@@ -10,7 +10,7 @@ before_install:
 
 install:
   - pip install pbars
-  - pip instsll termisize
+  - pip install termisize
   - python setup.py install
 
 before_script:
