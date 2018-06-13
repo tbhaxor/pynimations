@@ -5,12 +5,14 @@ python:
   - 3.5
   - 3.6
 
+before_install:
+  - cd code
+
 install:
-  - pip install pbars
-  - pip install termisize
+  - pip install . --user
 
 before_script:
-  - cd tests
+  - cd ../tests
 
 script:
   - python build_1.py
