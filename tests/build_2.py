@@ -1,9 +1,6 @@
-import sys
-import os
-sys.path.append(os.path.join(os.path.dirname(__file__), '../code/'))
 from pynimations import rotator
-print("------ Rotator Animation Testing ------")
 
+print("------ Rotator Animation Testing ------")
 r1 = rotator.Animator()
 r1.animate()
 print()

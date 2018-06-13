@@ -1,9 +1,6 @@
-import sys
-import os
-sys.path.append(os.path.join(os.path.dirname(__file__), '../code/'))
 from pynimations import casetoggle
-print("------ CaseToggle Animation Testing ------")
 
+print("------ CaseToggle Animation Testing ------")
 c1 = casetoggle.Animator()
 c1.animate()
 print()

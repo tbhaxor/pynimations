@@ -1,7 +1,5 @@
-import sys
-import os
-sys.path.append(os.path.join(os.path.dirname(__file__), '../code/'))
 from pynimations import progressbar
+
 print("------ Progressbar Animation Testing ------")
 p1 = progressbar.Animator()
 p1.animate()
