@@ -1,4 +1,4 @@
-sudo: false
+sudo: true
 language : python
 python:
   - 3.4
@@ -9,7 +9,7 @@ before_install:
   - cd code
 
 install:
-  - pip install . --user
+  - python setup.py install
 
 before_script:
   - cd ../tests
