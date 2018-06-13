@@ -16,13 +16,13 @@ class Animator:
         try:
             for _ in range(self.__itr):
                 for x in range(0, self.__len):
-                    time.sleep(0.1)
+                    time.sleep(self.__ivl)
                     msg = "\r{}{}".format(" " * x, self.__lbl)
                     sys.stdout.write(msg)
                     sys.stdout.flush()
 
                 for x in range(self.__len, 0, -1):
-                    time.sleep(0.1)
+                    time.sleep(self.__ivl)
                     msg = "\r{}{}".format(" " * x, self.__lbl)
                     sys.stdout.write(msg)
                     sys.stdout.flush()
