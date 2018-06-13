@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(name="pynimations",
       packages=["pynimations"],
-      version="3.2.6",
+      version="3.2.7",
       description="All-in-one python library for program loading animations",
       long_description="Visit https://tbhaxor.me/pynimations/",
       author_email="Gurkirat Singh <tbhaxor@gmail.com>",
